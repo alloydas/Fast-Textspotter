@@ -1,4 +1,4 @@
-# Harnessing the Power of Multi-Lingual Datasets for Pre-training: Towards Enhancing Text Spotting Performance
+# FastTextSpotter: A High-Efficiency Transformer for Multilingual Scene Text Spotting
 
 
 #### Installation
@@ -60,10 +60,7 @@ Example commands:
 ```bash
 python tools/train_net.py --config-file <PATH_TO_CONFIG_FILE> --num-gpus 8
 ```
-You can train chineese from scratch or finetune the model by putting pretrained weights in `weights` folder.
-```bash
- python tools/train_net.py --config-file configs/TESTR/CHN/TESTR_swin_Polygon.yaml
-```
+
 
 All configuration files can be found in `configs/TESTR`, excluding those files named `Base-xxxx.yaml`.
 
